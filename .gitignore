@@ -10,8 +10,7 @@ coverage/
 .env.local
 .env.*.local
 
-# .NET
-bin/
+# .NET（本项目 bin/ 是 CLI 入口，不忽略）
 obj/
 *.user
 *.suo
