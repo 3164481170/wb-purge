@@ -1,0 +1,31 @@
+{
+  "name": "wb-purge",
+  "version": "0.1.0",
+  "description": "WorkBuddy 破甲：清洗内置提示词模板 + 钩子注入不受限沙箱提示词。",
+  "type": "module",
+  "main": "lib/core.js",
+  "bin": {
+    "wb-purge": "bin/wb-purge.js"
+  },
+  "exports": {
+    ".": "./lib/core.js",
+    "./rules": "./lib/rules.js",
+    "./install": "./lib/install.js",
+    "./hook": "./lib/hook.mjs"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "workbuddy",
+    "prompt",
+    "harness",
+    "hooks",
+    "wb-purge"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
